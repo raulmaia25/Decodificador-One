@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+    <title>Decodificador</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="./assets/Logo.svg" alt="Logo Alura">
+    </header>
+    <main id="projeto">
+        <section id="decodificador">
+            <input type="text" id="recebido" cols="60" rows="10" placeholder="Digite seu texto:">
+            <div id="interacao">  
+                <div>
+                    <img id="atencao" src="./assets/bi_exclamation-circle-fill.svg" alt="atenção" >
+                    <p id="etiqueta" >Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div id="bot">
+                    <div id="botoes">
+                        <input type="button" onclick="cripto()" id="cripto" value="Criptografar">
+                        <input type="button" onclick="descripto()" type="submit" id="descripto" value="Descriptografar">
+                    </div>
+                </div>
+            </div>
+        </section>    
+        <aside id="resultado">
+            <img id="droid" src="./assets/1626611_c3p0_droid_protocol_robot_star wars_icon.png" alt="droid">
+            <h3>Nenhuma mensagem encontrada</h3>
+            <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+            <input  id="copy" type="button" value="Copiar" hidden>
+        </aside>
+    </main>
+
+    <footer id="rodape">
+        <p>Desenvolvido por Raul Maia</p>
+    </footer>
+</body>
+</html>
