@@ -9,6 +9,8 @@ function cripto() {
     .replaceAll("u", "ufat");
 
   document.getElementById("resultado").innerHTML = cripto;
+  cripto.classlist.add("resultado");
+  Cripto.className = "resultado";
 }
 
 function descripto() {
@@ -19,5 +21,6 @@ function descripto() {
     .replaceAll("ober", "o")
     .replaceAll("ufat", "u");
 
+  desCripto.className = "#resultado";
   document.getElementById("resultado").innerHTML = desCripto;
 }
