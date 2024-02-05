@@ -22,5 +22,3 @@ function descripto() {
   document.getElementById("resultado").innerHTML = desCripto;
   desCripto = desCripto.style;
 }
-
-const copy = document.createElement("button");
