@@ -1,7 +1,7 @@
 const texto = document.getElementById("recebido");
 
 function cripto() {
-  let cripto = texto.value
+  let cripto = toLowerCase(texto.value)
     .replaceAll("e", "enter")
     .replaceAll("i", "imes")
     .replaceAll("a", "ai")
