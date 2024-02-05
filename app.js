@@ -20,5 +20,4 @@ function descripto() {
     .replaceAll("ufat", "u");
 
   document.getElementById("resultado").innerHTML = desCripto;
-  desCripto = desCripto.style;
 }
